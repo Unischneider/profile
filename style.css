@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(210, 210, 210);
+  background-color: #1E3888;
   font-family: 'Open Sans', sans-serif;
   color: rgb(150,150,150);
 }
@@ -32,7 +32,7 @@ a:hover {
   background-color: white;
   margin: 20px 0;
   text-align: center;
-  box-shadow: 0 0 1px 2px rgb(180, 180, 180);
+  box-shadow: 0 0 1px 2px #5B6EA8;
   border-radius: 5px;
   padding: 10px;
 }
@@ -41,16 +41,11 @@ a:hover {
   width: 200px;
 }
 
-.avatar {
-  border-radius: 50%;
-}
-.avatar:hover {
-  transform: rotate(360deg);
-  transition: width 2s ease;
-}
+
 
 table > thead > tr > td {
   color: #1E3888;
+  font-weight: bold;
 }
 
 table {
@@ -67,8 +62,24 @@ table {
 }
 
 
+.profile-image {
+    background-image: url(images/pass_bild.jpg);
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 2px solid rgb(210, 210, 210);
+}
+.profile-image:hover {
+  transform: rotate(360deg);
+  transition: all 2s ease;
+}
 
-
-
+.row-title {
+  font-weight: bold;
+  text-align: center;
+}
 
 
