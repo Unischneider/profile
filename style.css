@@ -1,0 +1,74 @@
+body {
+  background-color: rgb(210, 210, 210);
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(150,150,150);
+}
+
+.card > p {
+  text-align: left;
+}
+
+h1 {
+  font-family: 'Noto Serif', serif;
+  color: #1E3888;
+}
+
+a {
+  text-decoration: none;
+  color: #1E3888;
+  transition: width 2s ease;
+}
+
+a:hover {
+  color: #9C3848;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  margin: 20px 0;
+  text-align: center;
+  box-shadow: 0 0 1px 2px rgb(180, 180, 180);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.images {
+  width: 200px;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+.avatar:hover {
+  transform: rotate(360deg);
+  transition: width 2s ease;
+}
+
+table > thead > tr > td {
+  color: #1E3888;
+}
+
+table {
+  text-align: left;
+}
+
+
+.inline-list > li {
+  display: inline-block;
+  padding: 0 20px;
+}
+.inline-list {
+  padding: 0;
+}
+
+
+
+
+
+
+
